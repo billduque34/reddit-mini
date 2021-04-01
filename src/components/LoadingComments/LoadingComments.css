@@ -1,0 +1,28 @@
+.LoadingComments {
+    background-color: rgba(235, 235, 235, 0.959);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.LoadingComments p {
+    width: 100%;
+    background-color: rgb(219, 217, 217);
+    height: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    animation: loading-opacity 2s infinite;
+}
+
+@keyframes loading-opacity {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

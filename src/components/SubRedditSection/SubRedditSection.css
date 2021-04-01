@@ -1,0 +1,15 @@
+.SubRedditSection {
+    box-sizing: border-box;
+    background-color: rgba(214, 214, 214, 0.479);
+    width: 100%;
+    background-color: rgba(214, 214, 214, 0.479);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(139, 139, 139);
+    padding: 20px 15px;
+    align-self: baseline;
+    justify-self: stretch;
+}
+
+.SubRedditSection h2 {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,25 @@
+.Subreddit {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.Subreddit > img {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.Subreddit > p {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.Subreddit:hover {
+    background-color: rgb(179, 179, 179);
+    border-radius: 10px;
+}

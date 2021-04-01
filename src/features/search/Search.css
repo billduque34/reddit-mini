@@ -1,0 +1,38 @@
+.Search {
+    display: flex;
+    align-items: center;
+}
+
+.Search input {
+    height: 35px;
+    width: 300px;
+    border: none;
+    border-radius: 50px;
+    padding-left: 20px;
+    margin-right: 12px;
+}
+
+.Search button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.Search svg {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 660px) {
+    .Search > input {
+        width: 200px;
+        height: 25px;
+    }
+
+    .Search svg {
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+    }
+    
+  }
