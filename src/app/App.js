@@ -9,7 +9,8 @@ import { MobileNavButton } from '../components/mobileNavButton/MobileNavButton';
 
 function App() {
   const [search, setSearch] = useState('');
-  const [subreddit,setSubreddit] = useState('/r/Home')
+  const [subreddit,setSubreddit] = useState('/r/Home');
+
   return (
     <div className="App">
       <header>

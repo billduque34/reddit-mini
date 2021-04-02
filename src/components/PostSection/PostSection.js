@@ -25,6 +25,8 @@ export function PostSection(props) {
                                                                           score={post.score} 
                                                                           created={post.created_utc} 
                                                                           permalink={post.permalink}
-                                                                          key={post.id}/>)}
+                                                                          key={post.id}
+                                                                          media={post.is_video || post.domain === 'youtu.be' ? post.media : ''}
+                                                                          selfText={post.selftext_html}/>)}
             </div>);
 }
